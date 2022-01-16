@@ -1,0 +1,81 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="net.ahrefs.ahrefschallange"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:6:22-76
+13
+14    <application
+14-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:8:5-25:19
+15        android:name="net.ahrefs.ahrefschallange.MyApp"
+15-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:9:9-30
+16        android:allowBackup="true"
+16-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.7.0] /Users/MohamedAshour/.gradle/caches/transforms-3/c13c40f1e274c789de9ef334c94044ad/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.AhrefsChallange" >
+24-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:15:9-53
+25        <activity
+25-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:16:9-24:20
+26            android:name="net.ahrefs.ahrefschallange.base.MainActivity"
+26-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:17:13-46
+27            android:exported="true" >
+27-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:18:13-36
+28            <intent-filter>
+28-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:19:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:20:17-69
+29-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:22:17-77
+31-->/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <provider
+35-->[androidx.emoji2:emoji2:1.0.0] /Users/MohamedAshour/.gradle/caches/transforms-3/b060c25b17c50af5128319431122e591/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+36            android:name="androidx.startup.InitializationProvider"
+36-->[androidx.emoji2:emoji2:1.0.0] /Users/MohamedAshour/.gradle/caches/transforms-3/b060c25b17c50af5128319431122e591/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+37            android:authorities="net.ahrefs.ahrefschallange.androidx-startup"
+37-->[androidx.emoji2:emoji2:1.0.0] /Users/MohamedAshour/.gradle/caches/transforms-3/b060c25b17c50af5128319431122e591/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+38            android:exported="false" >
+38-->[androidx.emoji2:emoji2:1.0.0] /Users/MohamedAshour/.gradle/caches/transforms-3/b060c25b17c50af5128319431122e591/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+39            <meta-data
+39-->[androidx.emoji2:emoji2:1.0.0] /Users/MohamedAshour/.gradle/caches/transforms-3/b060c25b17c50af5128319431122e591/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+40                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+40-->[androidx.emoji2:emoji2:1.0.0] /Users/MohamedAshour/.gradle/caches/transforms-3/b060c25b17c50af5128319431122e591/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+41                android:value="androidx.startup" />
+41-->[androidx.emoji2:emoji2:1.0.0] /Users/MohamedAshour/.gradle/caches/transforms-3/b060c25b17c50af5128319431122e591/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+42            <meta-data
+42-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/MohamedAshour/.gradle/caches/transforms-3/843a0148e363010ca7c805f52172659a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+43                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+43-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/MohamedAshour/.gradle/caches/transforms-3/843a0148e363010ca7c805f52172659a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+44                android:value="androidx.startup" />
+44-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/MohamedAshour/.gradle/caches/transforms-3/843a0148e363010ca7c805f52172659a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+45        </provider>
+46    </application>
+47
+48</manifest>

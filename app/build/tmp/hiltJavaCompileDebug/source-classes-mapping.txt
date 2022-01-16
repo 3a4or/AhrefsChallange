@@ -1,0 +1,4 @@
+dagger/hilt/internal/processedrootsentinel/codegen/_net_ahrefs_ahrefschallange_MyApp.java
+ dagger.hilt.internal.processedrootsentinel.codegen._net_ahrefs_ahrefschallange_MyApp
+net/ahrefs/ahrefschallange/MyApp_ComponentTreeDeps.java
+ net.ahrefs.ahrefschallange.MyApp_ComponentTreeDeps

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.arch.core:core-testing:2.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/233675fdb9266f14702bab9359051480/transformed/core-testing-2.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5159578fa44547f4c58fcb11dd07c139/transformed/core-testing-2.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/233675fdb9266f14702bab9359051480/transformed/core-testing-2.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/233675fdb9266f14702bab9359051480/transformed/core-testing-2.1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-testing/2.1.0/457668675d61f43d0fbffba4c89bc8eb2470a295/core-testing-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
