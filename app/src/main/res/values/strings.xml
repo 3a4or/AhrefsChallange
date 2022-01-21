@@ -5,5 +5,7 @@
     <string name="error_connection_failed">Unexpected error please call system manager</string>
     <string name="error_unauthorized_user">Session expired</string>
     <string name="label_search">Search</string>
+    <string name="label_dummy">Dummy</string>
+    <string name="title_open_search">Open Search</string>
     <string name="title_search_text">Search Text</string>
 </resources>

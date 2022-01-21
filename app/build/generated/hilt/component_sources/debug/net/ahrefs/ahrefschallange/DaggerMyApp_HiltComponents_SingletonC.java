@@ -23,7 +23,9 @@ import dagger.hilt.android.internal.modules.ApplicationContextModule;
 import dagger.hilt.android.internal.modules.ApplicationContextModule_ProvideApplicationFactory;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.DoubleCheck;
+import dagger.internal.MapBuilder;
 import dagger.internal.Preconditions;
+import dagger.internal.SetBuilder;
 import java.util.Collections;
 import java.util.Map;
 import java.util.Set;
@@ -35,6 +37,9 @@ import net.ahrefs.ahrefschallange.di.AppModule;
 import net.ahrefs.ahrefschallange.di.NetworkModule;
 import net.ahrefs.ahrefschallange.di.NetworkModule_ProvideApiFactory;
 import net.ahrefs.ahrefschallange.di.NetworkModule_ProvideOkHttpClientFactory;
+import net.ahrefs.ahrefschallange.ui.dummy.DummyFragment;
+import net.ahrefs.ahrefschallange.ui.dummy.DummyViewModel;
+import net.ahrefs.ahrefschallange.ui.dummy.DummyViewModel_HiltModules_KeyModule_ProvideFactory;
 import net.ahrefs.ahrefschallange.ui.search.SearchFragment;
 import net.ahrefs.ahrefschallange.ui.search.SearchViewModel;
 import net.ahrefs.ahrefschallange.ui.search.SearchViewModel_HiltModules_KeyModule_ProvideFactory;
@@ -369,6 +374,10 @@ public final class DaggerMyApp_HiltComponents_SingletonC extends MyApp_HiltCompo
     }
 
     @Override
+    public void injectDummyFragment(DummyFragment arg0) {
+    }
+
+    @Override
     public void injectSearchFragment(SearchFragment arg0) {
     }
   }
@@ -414,7 +423,7 @@ public final class DaggerMyApp_HiltComponents_SingletonC extends MyApp_HiltCompo
 
     @Override
     public Set<String> getViewModelKeys() {
-      return Collections.<String>singleton(SearchViewModel_HiltModules_KeyModule_ProvideFactory.provide());
+      return SetBuilder.<String>newSetBuilder(2).add(DummyViewModel_HiltModules_KeyModule_ProvideFactory.provide()).add(SearchViewModel_HiltModules_KeyModule_ProvideFactory.provide()).build();
     }
 
     @Override
@@ -444,6 +453,8 @@ public final class DaggerMyApp_HiltComponents_SingletonC extends MyApp_HiltCompo
 
     private final ViewModelCImpl viewModelCImpl = this;
 
+    private Provider<DummyViewModel> dummyViewModelProvider;
+
     private Provider<SearchViewModel> searchViewModelProvider;
 
     private ViewModelCImpl(DaggerMyApp_HiltComponents_SingletonC singletonC,
@@ -457,12 +468,13 @@ public final class DaggerMyApp_HiltComponents_SingletonC extends MyApp_HiltCompo
 
     @SuppressWarnings("unchecked")
     private void initialize(final SavedStateHandle savedStateHandleParam) {
-      this.searchViewModelProvider = new SwitchingProvider<>(singletonC, activityRetainedCImpl, viewModelCImpl, 0);
+      this.dummyViewModelProvider = new SwitchingProvider<>(singletonC, activityRetainedCImpl, viewModelCImpl, 0);
+      this.searchViewModelProvider = new SwitchingProvider<>(singletonC, activityRetainedCImpl, viewModelCImpl, 1);
     }
 
     @Override
     public Map<String, Provider<ViewModel>> getHiltViewModelMap() {
-      return Collections.<String, Provider<ViewModel>>singletonMap("net.ahrefs.ahrefschallange.ui.search.SearchViewModel", ((Provider) searchViewModelProvider));
+      return MapBuilder.<String, Provider<ViewModel>>newMapBuilder(2).put("net.ahrefs.ahrefschallange.ui.dummy.DummyViewModel", ((Provider) dummyViewModelProvider)).put("net.ahrefs.ahrefschallange.ui.search.SearchViewModel", ((Provider) searchViewModelProvider)).build();
     }
 
     private static final class SwitchingProvider<T> implements Provider<T> {
@@ -486,7 +498,10 @@ public final class DaggerMyApp_HiltComponents_SingletonC extends MyApp_HiltCompo
       @Override
       public T get() {
         switch (id) {
-          case 0: // net.ahrefs.ahrefschallange.ui.search.SearchViewModel 
+          case 0: // net.ahrefs.ahrefschallange.ui.dummy.DummyViewModel 
+          return (T) new DummyViewModel();
+
+          case 1: // net.ahrefs.ahrefschallange.ui.search.SearchViewModel 
           return (T) new SearchViewModel(singletonC.baseRepositoryProvider.get());
 
           default: throw new AssertionError(id);

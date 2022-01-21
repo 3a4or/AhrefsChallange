@@ -1975,6 +1975,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btn_open_search
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2045,6 +2046,7 @@ id dragRight
 id dragStart
 id dragUp
 id dropdown_menu
+id dummyFragment
 id easeIn
 id easeInOut
 id easeOut
@@ -2200,6 +2202,7 @@ id on
 id onAttachStateChangeListener
 id onDateChanged
 id onInterceptTouchReturnSwipe
+id openSearch
 id outline
 id outward
 id overshoot
@@ -2347,6 +2350,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_search_word
 id unchecked
 id uniform
 id unlabeled
@@ -2454,6 +2458,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_dummy
 layout fragment_search
 layout material_chip_input_combo
 layout material_clock_display
@@ -2586,6 +2591,7 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
 string label_dismiss
+string label_dummy
 string label_search
 string material_clock_display_divider
 string material_clock_toggle_content_description
@@ -2651,6 +2657,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
+string title_open_search
 string title_search_text
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

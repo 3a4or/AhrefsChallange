@@ -2,6 +2,7 @@ package net.ahrefs.ahrefschallange.ui.search
 
 import android.os.Bundle
 import android.view.*
+import android.view.inputmethod.EditorInfo
 import androidx.core.widget.doAfterTextChanged
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
@@ -12,6 +13,7 @@ import kotlinx.coroutines.launch
 import net.ahrefs.ahrefschallange.base.BaseFragment
 import net.ahrefs.ahrefschallange.databinding.FragmentSearchBinding
 import net.ahrefs.ahrefschallange.utils.NoFilterAdapter
+import net.ahrefs.ahrefschallange.utils.hideKeyboard
 
 @AndroidEntryPoint
 class SearchFragment : BaseFragment() {
@@ -34,6 +36,7 @@ class SearchFragment : BaseFragment() {
         mBinding.lifecycleOwner = viewLifecycleOwner
         mBinding.viewModel = viewModel
         init()
+        initClicks()
         return mBinding.root
     }
 
@@ -56,4 +59,27 @@ class SearchFragment : BaseFragment() {
         }
     }
 
+    private fun initClicks() {
+        mBinding.search.setOnEditorActionListener { _, actionId, _ ->
+            when (actionId) {
+                EditorInfo.IME_ACTION_SEARCH -> {
+                    if (viewModel.searchQuery.value!!.isNotBlank()) {
+                        hideKeyboard()
+                        showMessageFromActivity(viewModel.searchQuery.value!!)
+                        returnWithSearchText()
+                    }
+                    true
+                }
+                else -> false
+            }
+        }
+        mBinding.imgBack.setOnClickListener {
+            navController.navigateUp()
+        }
+    }
+
+    private fun returnWithSearchText() {
+        navController.previousBackStackEntry?.savedStateHandle?.set("searchText", viewModel.searchQuery.value!!)
+        navController.popBackStack()
+    }
 }

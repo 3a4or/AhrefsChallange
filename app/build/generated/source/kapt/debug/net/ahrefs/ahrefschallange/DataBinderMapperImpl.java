@@ -16,17 +16,21 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import net.ahrefs.ahrefschallange.databinding.ActivityMainBindingImpl;
+import net.ahrefs.ahrefschallange.databinding.FragmentDummyBindingImpl;
 import net.ahrefs.ahrefschallange.databinding.FragmentSearchBindingImpl;
 
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_ACTIVITYMAIN = 1;
 
-  private static final int LAYOUT_FRAGMENTSEARCH = 2;
+  private static final int LAYOUT_FRAGMENTDUMMY = 2;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
+  private static final int LAYOUT_FRAGMENTSEARCH = 3;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(3);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(net.ahrefs.ahrefschallange.R.layout.activity_main, LAYOUT_ACTIVITYMAIN);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(net.ahrefs.ahrefschallange.R.layout.fragment_dummy, LAYOUT_FRAGMENTDUMMY);
     INTERNAL_LAYOUT_ID_LOOKUP.put(net.ahrefs.ahrefschallange.R.layout.fragment_search, LAYOUT_FRAGMENTSEARCH);
   }
 
@@ -44,6 +48,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ActivityMainBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_main is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTDUMMY: {
+          if ("layout/fragment_dummy_0".equals(tag)) {
+            return new FragmentDummyBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_dummy is invalid. Received: " + tag);
         }
         case  LAYOUT_FRAGMENTSEARCH: {
           if ("layout/fragment_search_0".equals(tag)) {
@@ -105,10 +115,11 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(3);
 
     static {
       sKeys.put("layout/activity_main_0", net.ahrefs.ahrefschallange.R.layout.activity_main);
+      sKeys.put("layout/fragment_dummy_0", net.ahrefs.ahrefschallange.R.layout.fragment_dummy);
       sKeys.put("layout/fragment_search_0", net.ahrefs.ahrefschallange.R.layout.fragment_search);
     }
   }

@@ -39,6 +39,9 @@ import hilt_aggregated_deps._net_ahrefs_ahrefschallange_MyApp_GeneratedInjector;
 import hilt_aggregated_deps._net_ahrefs_ahrefschallange_base_MainActivity_GeneratedInjector;
 import hilt_aggregated_deps._net_ahrefs_ahrefschallange_di_AppModule;
 import hilt_aggregated_deps._net_ahrefs_ahrefschallange_di_NetworkModule;
+import hilt_aggregated_deps._net_ahrefs_ahrefschallange_ui_dummy_DummyFragment_GeneratedInjector;
+import hilt_aggregated_deps._net_ahrefs_ahrefschallange_ui_dummy_DummyViewModel_HiltModules_BindsModule;
+import hilt_aggregated_deps._net_ahrefs_ahrefschallange_ui_dummy_DummyViewModel_HiltModules_KeyModule;
 import hilt_aggregated_deps._net_ahrefs_ahrefschallange_ui_search_SearchFragment_GeneratedInjector;
 import hilt_aggregated_deps._net_ahrefs_ahrefschallange_ui_search_SearchViewModel_HiltModules_BindsModule;
 import hilt_aggregated_deps._net_ahrefs_ahrefschallange_ui_search_SearchViewModel_HiltModules_KeyModule;
@@ -85,6 +88,9 @@ import hilt_aggregated_deps._net_ahrefs_ahrefschallange_ui_search_SearchViewMode
         _net_ahrefs_ahrefschallange_base_MainActivity_GeneratedInjector.class,
         _net_ahrefs_ahrefschallange_di_AppModule.class,
         _net_ahrefs_ahrefschallange_di_NetworkModule.class,
+        _net_ahrefs_ahrefschallange_ui_dummy_DummyFragment_GeneratedInjector.class,
+        _net_ahrefs_ahrefschallange_ui_dummy_DummyViewModel_HiltModules_BindsModule.class,
+        _net_ahrefs_ahrefschallange_ui_dummy_DummyViewModel_HiltModules_KeyModule.class,
         _net_ahrefs_ahrefschallange_ui_search_SearchFragment_GeneratedInjector.class,
         _net_ahrefs_ahrefschallange_ui_search_SearchViewModel_HiltModules_BindsModule.class,
         _net_ahrefs_ahrefschallange_ui_search_SearchViewModel_HiltModules_KeyModule.class

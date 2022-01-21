@@ -47,6 +47,8 @@ import javax.inject.Singleton;
 import net.ahrefs.ahrefschallange.base.MainActivity_GeneratedInjector;
 import net.ahrefs.ahrefschallange.di.AppModule;
 import net.ahrefs.ahrefschallange.di.NetworkModule;
+import net.ahrefs.ahrefschallange.ui.dummy.DummyFragment_GeneratedInjector;
+import net.ahrefs.ahrefschallange.ui.dummy.DummyViewModel_HiltModules;
 import net.ahrefs.ahrefschallange.ui.search.SearchFragment_GeneratedInjector;
 import net.ahrefs.ahrefschallange.ui.search.SearchViewModel_HiltModules;
 
@@ -147,6 +149,7 @@ public final class MyApp_HiltComponents {
 
   @Subcomponent(
       modules = {
+          DummyViewModel_HiltModules.KeyModule.class,
           HiltWrapper_ActivityRetainedComponentManager_LifecycleModule.class,
           ActivityCBuilderModule.class,
           ViewModelCBuilderModule.class,
@@ -186,6 +189,7 @@ public final class MyApp_HiltComponents {
 
   @Subcomponent(
       modules = {
+          DummyViewModel_HiltModules.BindsModule.class,
           HiltWrapper_HiltViewModelFactory_ViewModelModule.class,
           SearchViewModel_HiltModules.BindsModule.class
       }
@@ -216,6 +220,7 @@ public final class MyApp_HiltComponents {
       DefaultViewModelFactories.FragmentEntryPoint,
       ViewComponentManager.ViewWithFragmentComponentBuilderEntryPoint,
       GeneratedComponent,
+      DummyFragment_GeneratedInjector,
       SearchFragment_GeneratedInjector {
     @Subcomponent.Builder
     abstract interface Builder extends FragmentComponentBuilder {

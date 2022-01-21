@@ -4,6 +4,10 @@
         "source": "/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/res/layout/fragment_search.xml"
     },
     {
+        "merged": "/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_dummy.xml",
+        "source": "/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/res/layout/fragment_dummy.xml"
+    },
+    {
         "merged": "/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
         "source": "/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/res/layout/activity_main.xml"
     }

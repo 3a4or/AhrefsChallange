@@ -40,6 +40,13 @@ abstract class BaseFragment : Fragment() {
         }
     }
 
+    protected open fun showMessageFromActivity(message: String) {
+        val base = requireActivity()
+        if (base is MainActivity) {
+            base.showMessageFromActivity(message)
+        }
+    }
+
     protected open fun showSuccess(message: String) {
         Snackbar.make(
             requireActivity().findViewById(android.R.id.content),

@@ -50,13 +50,17 @@ class MainActivity : AppCompatActivity() {
         viewModel.dataLoading.value = show
     }
 
-    private fun showError(message: String) {
+    fun showMessageFromActivity(message: String) {
+        showToast(message)
+    }
+
+    private fun showToast(message: String) {
         Snackbar.make(
             findViewById(android.R.id.content),
             message,
             Snackbar.LENGTH_LONG
         ).apply {
-            setBackgroundTint(ContextCompat.getColor(this@MainActivity, R.color.color_filter4))
+            setBackgroundTint(ContextCompat.getColor(this@MainActivity, R.color.purple_500))
             view.background =
                 ResourcesCompat.getDrawable(resources, R.drawable.round_corner_bg, null)
             setActionTextColor(Color.WHITE)

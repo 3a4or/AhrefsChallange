@@ -28,12 +28,12 @@
         "source": "/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/res/drawable/round_corner_settings_bg.xml"
     },
     {
-        "merged": "/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
         "merged": "/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/build/intermediates/merged_res/debug/drawable_bg_stroke.xml.flat",
@@ -90,6 +90,10 @@
     {
         "merged": "/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/build/intermediates/merged_res/debug/layout_fragment_dummy.xml.flat",
+        "source": "/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/src/main/res/layout/fragment_dummy.xml"
     },
     {
         "merged": "/Users/MohamedAshour/Movies/Ahrefs‏‏Challenge/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_back.png.flat",
