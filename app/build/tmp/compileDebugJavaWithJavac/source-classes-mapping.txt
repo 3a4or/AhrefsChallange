@@ -1,5 +1,5 @@
-hilt_aggregated_deps/_net_ahrefs_ahrefschallange_ui_search_SearchFragment_GeneratedInjector.java
- hilt_aggregated_deps._net_ahrefs_ahrefschallange_ui_search_SearchFragment_GeneratedInjector
+net/ahrefs/ahrefschallange/databinding/ActivityMainBinding.java
+ net.ahrefs.ahrefschallange.databinding.ActivityMainBinding
 androidx/databinding/DataBinderMapperImpl.java
  androidx.databinding.DataBinderMapperImpl
 hilt_aggregated_deps/_net_ahrefs_ahrefschallange_ui_search_SearchViewModel_HiltModules_KeyModule.java
@@ -18,23 +18,24 @@ net/ahrefs/ahrefschallange/ui/dummy/DummyViewModel_Factory.java
  net.ahrefs.ahrefschallange.ui.dummy.DummyViewModel_Factory$InstanceHolder
 net/ahrefs/ahrefschallange/BR.java
  net.ahrefs.ahrefschallange.BR
-net/ahrefs/ahrefschallange/di/AppModule_ProvidesSharedPreferencesFactory.java
- net.ahrefs.ahrefschallange.di.AppModule_ProvidesSharedPreferencesFactory
-net/ahrefs/ahrefschallange/ui/search/SearchViewModel_HiltModules_KeyModule_ProvideFactory.java
- net.ahrefs.ahrefschallange.ui.search.SearchViewModel_HiltModules_KeyModule_ProvideFactory
- net.ahrefs.ahrefschallange.ui.search.SearchViewModel_HiltModules_KeyModule_ProvideFactory$InstanceHolder
-androidx/databinding/DataBindingComponent.java
- androidx.databinding.DataBindingComponent
+net/ahrefs/ahrefschallange/ui/dummy/DummyFragment_GeneratedInjector.java
+ net.ahrefs.ahrefschallange.ui.dummy.DummyFragment_GeneratedInjector
+net/ahrefs/ahrefschallange/databinding/ActivityMainBindingImpl.java
+ net.ahrefs.ahrefschallange.databinding.ActivityMainBindingImpl
+net/ahrefs/ahrefschallange/DataBinderMapperImpl.java
+ net.ahrefs.ahrefschallange.DataBinderMapperImpl
+ net.ahrefs.ahrefschallange.DataBinderMapperImpl$InnerBrLookup
+ net.ahrefs.ahrefschallange.DataBinderMapperImpl$InnerLayoutIdLookup
 hilt_aggregated_deps/_net_ahrefs_ahrefschallange_ui_search_SearchViewModel_HiltModules_BindsModule.java
  hilt_aggregated_deps._net_ahrefs_ahrefschallange_ui_search_SearchViewModel_HiltModules_BindsModule
-hilt_aggregated_deps/_net_ahrefs_ahrefschallange_di_NetworkModule.java
- hilt_aggregated_deps._net_ahrefs_ahrefschallange_di_NetworkModule
-net/ahrefs/ahrefschallange/ui/search/SearchViewModel_Factory.java
- net.ahrefs.ahrefschallange.ui.search.SearchViewModel_Factory
+hilt_aggregated_deps/_net_ahrefs_ahrefschallange_ui_search_SearchFragment_GeneratedInjector.java
+ hilt_aggregated_deps._net_ahrefs_ahrefschallange_ui_search_SearchFragment_GeneratedInjector
+net/ahrefs/ahrefschallange/databinding/FragmentDummyBindingImpl.java
+ net.ahrefs.ahrefschallange.databinding.FragmentDummyBindingImpl
 net/ahrefs/ahrefschallange/data/network/BaseRepository_Factory.java
  net.ahrefs.ahrefschallange.data.network.BaseRepository_Factory
-net/ahrefs/ahrefschallange/di/NetworkModule_ProvideApiFactory.java
- net.ahrefs.ahrefschallange.di.NetworkModule_ProvideApiFactory
+net/ahrefs/ahrefschallange/databinding/FragmentDummyBinding.java
+ net.ahrefs.ahrefschallange.databinding.FragmentDummyBinding
 hilt_aggregated_deps/_net_ahrefs_ahrefschallange_ui_dummy_DummyViewModel_HiltModules_BindsModule.java
  hilt_aggregated_deps._net_ahrefs_ahrefschallange_ui_dummy_DummyViewModel_HiltModules_BindsModule
 net/ahrefs/ahrefschallange/di/NetworkModule_ProvideOkHttpClientFactory.java
@@ -42,16 +43,16 @@ net/ahrefs/ahrefschallange/di/NetworkModule_ProvideOkHttpClientFactory.java
  net.ahrefs.ahrefschallange.di.NetworkModule_ProvideOkHttpClientFactory$InstanceHolder
 hilt_aggregated_deps/_net_ahrefs_ahrefschallange_di_AppModule.java
  hilt_aggregated_deps._net_ahrefs_ahrefschallange_di_AppModule
-net/ahrefs/ahrefschallange/BuildConfig.java
- net.ahrefs.ahrefschallange.BuildConfig
+net/ahrefs/ahrefschallange/base/Hilt_MainActivity.java
+ net.ahrefs.ahrefschallange.base.Hilt_MainActivity
+ net.ahrefs.ahrefschallange.base.Hilt_MainActivity$1
 net/ahrefs/ahrefschallange/ui/dummy/DummyViewModel_HiltModules.java
  net.ahrefs.ahrefschallange.ui.dummy.DummyViewModel_HiltModules
  net.ahrefs.ahrefschallange.ui.dummy.DummyViewModel_HiltModules$BindsModule
  net.ahrefs.ahrefschallange.ui.dummy.DummyViewModel_HiltModules$KeyModule
-net/ahrefs/ahrefschallange/ui/search/SearchViewModel_HiltModules.java
- net.ahrefs.ahrefschallange.ui.search.SearchViewModel_HiltModules
- net.ahrefs.ahrefschallange.ui.search.SearchViewModel_HiltModules$BindsModule
- net.ahrefs.ahrefschallange.ui.search.SearchViewModel_HiltModules$KeyModule
+net/ahrefs/ahrefschallange/ui/search/SearchViewModel_HiltModules_KeyModule_ProvideFactory.java
+ net.ahrefs.ahrefschallange.ui.search.SearchViewModel_HiltModules_KeyModule_ProvideFactory
+ net.ahrefs.ahrefschallange.ui.search.SearchViewModel_HiltModules_KeyModule_ProvideFactory$InstanceHolder
 net/ahrefs/ahrefschallange/DataBindingTriggerClass.java
  net.ahrefs.ahrefschallange.DataBindingTriggerClass
 hilt_aggregated_deps/_net_ahrefs_ahrefschallange_base_MainActivity_GeneratedInjector.java
@@ -62,33 +63,32 @@ hilt_aggregated_deps/_net_ahrefs_ahrefschallange_MyApp_GeneratedInjector.java
  hilt_aggregated_deps._net_ahrefs_ahrefschallange_MyApp_GeneratedInjector
 hilt_aggregated_deps/_net_ahrefs_ahrefschallange_ui_dummy_DummyViewModel_HiltModules_KeyModule.java
  hilt_aggregated_deps._net_ahrefs_ahrefschallange_ui_dummy_DummyViewModel_HiltModules_KeyModule
-net/ahrefs/ahrefschallange/databinding/FragmentSearchBinding.java
- net.ahrefs.ahrefschallange.databinding.FragmentSearchBinding
+net/ahrefs/ahrefschallange/di/NetworkModule_ProvideApiFactory.java
+ net.ahrefs.ahrefschallange.di.NetworkModule_ProvideApiFactory
+hilt_aggregated_deps/_net_ahrefs_ahrefschallange_di_NetworkModule.java
+ hilt_aggregated_deps._net_ahrefs_ahrefschallange_di_NetworkModule
+net/ahrefs/ahrefschallange/di/AppModule_ProvidesSharedPreferencesFactory.java
+ net.ahrefs.ahrefschallange.di.AppModule_ProvidesSharedPreferencesFactory
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+net/ahrefs/ahrefschallange/ui/dummy/Hilt_DummyFragment.java
+ net.ahrefs.ahrefschallange.ui.dummy.Hilt_DummyFragment
 net/ahrefs/ahrefschallange/base/MainActivity_GeneratedInjector.java
  net.ahrefs.ahrefschallange.base.MainActivity_GeneratedInjector
-net/ahrefs/ahrefschallange/base/Hilt_MainActivity.java
- net.ahrefs.ahrefschallange.base.Hilt_MainActivity
- net.ahrefs.ahrefschallange.base.Hilt_MainActivity$1
-net/ahrefs/ahrefschallange/databinding/ActivityMainBinding.java
- net.ahrefs.ahrefschallange.databinding.ActivityMainBinding
-net/ahrefs/ahrefschallange/databinding/FragmentDummyBinding.java
- net.ahrefs.ahrefschallange.databinding.FragmentDummyBinding
-net/ahrefs/ahrefschallange/databinding/FragmentDummyBindingImpl.java
- net.ahrefs.ahrefschallange.databinding.FragmentDummyBindingImpl
-net/ahrefs/ahrefschallange/DataBinderMapperImpl.java
- net.ahrefs.ahrefschallange.DataBinderMapperImpl
- net.ahrefs.ahrefschallange.DataBinderMapperImpl$InnerBrLookup
- net.ahrefs.ahrefschallange.DataBinderMapperImpl$InnerLayoutIdLookup
-net/ahrefs/ahrefschallange/databinding/ActivityMainBindingImpl.java
- net.ahrefs.ahrefschallange.databinding.ActivityMainBindingImpl
+net/ahrefs/ahrefschallange/BuildConfig.java
+ net.ahrefs.ahrefschallange.BuildConfig
+net/ahrefs/ahrefschallange/ui/search/Hilt_SearchFragment.java
+ net.ahrefs.ahrefschallange.ui.search.Hilt_SearchFragment
+net/ahrefs/ahrefschallange/ui/search/SearchViewModel_HiltModules.java
+ net.ahrefs.ahrefschallange.ui.search.SearchViewModel_HiltModules
+ net.ahrefs.ahrefschallange.ui.search.SearchViewModel_HiltModules$BindsModule
+ net.ahrefs.ahrefschallange.ui.search.SearchViewModel_HiltModules$KeyModule
 net/ahrefs/ahrefschallange/databinding/FragmentSearchBindingImpl.java
  net.ahrefs.ahrefschallange.databinding.FragmentSearchBindingImpl
  net.ahrefs.ahrefschallange.databinding.FragmentSearchBindingImpl$1
-net/ahrefs/ahrefschallange/ui/dummy/Hilt_DummyFragment.java
- net.ahrefs.ahrefschallange.ui.dummy.Hilt_DummyFragment
-net/ahrefs/ahrefschallange/ui/search/Hilt_SearchFragment.java
- net.ahrefs.ahrefschallange.ui.search.Hilt_SearchFragment
-net/ahrefs/ahrefschallange/ui/dummy/DummyFragment_GeneratedInjector.java
- net.ahrefs.ahrefschallange.ui.dummy.DummyFragment_GeneratedInjector
+net/ahrefs/ahrefschallange/databinding/FragmentSearchBinding.java
+ net.ahrefs.ahrefschallange.databinding.FragmentSearchBinding
+net/ahrefs/ahrefschallange/ui/search/SearchViewModel_Factory.java
+ net.ahrefs.ahrefschallange.ui.search.SearchViewModel_Factory
 net/ahrefs/ahrefschallange/ui/search/SearchFragment_GeneratedInjector.java
  net.ahrefs.ahrefschallange.ui.search.SearchFragment_GeneratedInjector

@@ -15,7 +15,7 @@ class SearchViewModel @Inject constructor(private val repo: BaseRepository) : Ba
     var searchQuery = MutableLiveData("")
     val resultsList = MutableLiveData<List<String>>(emptyList())
 
-    fun getData(word: String) {
+    fun getData(word: String?) {
         viewModelScope.launch {
             dataLoading.value = true
             when (val response = repo.getSearchResults(word)) {
