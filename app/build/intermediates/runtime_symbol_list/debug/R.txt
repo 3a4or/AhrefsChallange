@@ -1134,6 +1134,7 @@ int color cardview_light_background 0x7f05002b
 int color cardview_shadow_end_color 0x7f05002c
 int color cardview_shadow_start_color 0x7f05002d
 int color checkbox_themeable_attribute_color 0x7f05002e
+int color colorDarkGrey 0x7f0500d7
 int color color_filter4 0x7f05002f
 int color design_bottom_navigation_shadow_color 0x7f050030
 int color design_box_stroke_color 0x7f050031
@@ -1810,6 +1811,7 @@ int drawable abc_textfield_search_material 0x7f070054
 int drawable abc_vector_test 0x7f070055
 int drawable avd_hide_password 0x7f070056
 int drawable avd_show_password 0x7f070057
+int drawable bg_stroke 0x7f070095
 int drawable btn_checkbox_checked_mtrl 0x7f070058
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f070059
 int drawable btn_checkbox_unchecked_mtrl 0x7f07005a
@@ -1823,6 +1825,7 @@ int drawable design_ic_visibility 0x7f070061
 int drawable design_ic_visibility_off 0x7f070062
 int drawable design_password_eye 0x7f070063
 int drawable design_snackbar_background 0x7f070064
+int drawable ic_back 0x7f070096
 int drawable ic_clock_black_24dp 0x7f070065
 int drawable ic_dropdown 0x7f070066
 int drawable ic_keyboard_black_24dp 0x7f070067
@@ -2089,9 +2092,11 @@ int id ifRoom 0x7f0800df
 int id ignore 0x7f0800e0
 int id ignoreRequest 0x7f0800e1
 int id image 0x7f0800e2
+int id img_back 0x7f0801fe
 int id immediateStop 0x7f0800e4
 int id included 0x7f0800e5
 int id info 0x7f0800e6
+int id inputLayout_search 0x7f0801ff
 int id invisible 0x7f0800e8
 int id inward 0x7f0800e9
 int id italic 0x7f0800ea
@@ -2234,6 +2239,7 @@ int id scrollIndicatorDown 0x7f080174
 int id scrollIndicatorUp 0x7f080175
 int id scrollView 0x7f080176
 int id scrollable 0x7f080177
+int id search 0x7f080200
 int id searchFragment 0x7f0801fd
 int id search_badge 0x7f080178
 int id search_bar 0x7f080179
@@ -2644,6 +2650,7 @@ int string path_password_eye_mask_visible 0x7f100075
 int string path_password_strike_through 0x7f100076
 int string search_menu_title 0x7f100077
 int string status_bar_notification_info_overflow 0x7f100078
+int string title_search_text 0x7f10007a
 int style AlertDialog_AppCompat 0x7f110000
 int style AlertDialog_AppCompat_Light 0x7f110001
 int style AndroidThemeColorAccentYellow 0x7f110002

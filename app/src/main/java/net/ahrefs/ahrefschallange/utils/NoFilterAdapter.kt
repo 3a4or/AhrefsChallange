@@ -12,6 +12,7 @@ import java.util.*
 class NoFilterAdapter<T>(context: Context, resource: Int) :
     ArrayAdapter<T>(context, resource) {
 
+    var isFullSearch: Boolean = false
     private var mFilter: Filter? = null
 
     override fun getView(

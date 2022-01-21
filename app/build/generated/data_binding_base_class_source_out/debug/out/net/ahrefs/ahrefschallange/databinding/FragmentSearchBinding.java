@@ -4,22 +4,38 @@ package net.ahrefs.ahrefschallange.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+import com.google.android.material.textfield.TextInputLayout;
 import java.lang.Deprecated;
 import java.lang.Object;
 import net.ahrefs.ahrefschallange.R;
 import net.ahrefs.ahrefschallange.ui.search.SearchViewModel;
+import net.ahrefs.ahrefschallange.utils.AutoCompleteSearchView;
 
 public abstract class FragmentSearchBinding extends ViewDataBinding {
+  @NonNull
+  public final ImageView imgBack;
+
+  @NonNull
+  public final TextInputLayout inputLayoutSearch;
+
+  @NonNull
+  public final AutoCompleteSearchView search;
+
   @Bindable
   protected SearchViewModel mViewModel;
 
-  protected FragmentSearchBinding(Object _bindingComponent, View _root, int _localFieldCount) {
+  protected FragmentSearchBinding(Object _bindingComponent, View _root, int _localFieldCount,
+      ImageView imgBack, TextInputLayout inputLayoutSearch, AutoCompleteSearchView search) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.imgBack = imgBack;
+    this.inputLayoutSearch = inputLayoutSearch;
+    this.search = search;
   }
 
   public abstract void setViewModel(@Nullable SearchViewModel viewModel);

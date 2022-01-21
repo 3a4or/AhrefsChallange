@@ -9,6 +9,8 @@ import net.ahrefs.ahrefschallange.data.entities.Result
 @Singleton
 class BaseRepository @Inject constructor(private val api: Api) {
 
+    suspend fun getSearchResults(query: String?) =
+        handleErrors { api.getSearchResults(query) }
 
     private suspend fun <T> handleErrors(func: suspend () -> Response<T>): Result<T> {
         return try {
