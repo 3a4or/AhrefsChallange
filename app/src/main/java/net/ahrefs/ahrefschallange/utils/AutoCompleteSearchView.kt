@@ -22,7 +22,7 @@ class AutoCompleteSearchView(
         }
         val activeWord = StringUtils.getActiveWord(selectionStart, getText().toString())
         val wordType = StringUtils.getWordType(activeWord.third)
-        val replacement = "\"$text\" "
+        val replacement = "$text "
         when (wordType.second) {
             IdManager.AUTO_COMPLETE_TYPE_SUBJECT -> {
                 setText(getText().toString().replaceRange(activeWord.first, activeWord.second, replacement))
