@@ -33,7 +33,6 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/title_search_text"
                 android:layout_toEndOf="@+id/img_back"
                 android:layout_marginStart="15dp"
                 app:endIconMode="clear_text"
