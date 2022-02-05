@@ -38,10 +38,7 @@ class MainActivity : AppCompatActivity() {
         activityBaseBinding.viewModel = viewModel
 
         navController.addOnDestinationChangedListener { _, destination, arguments ->
-            var label = destination.label?:""
-            if (label.startsWith("{")) {
-                label = arguments?.getString(label.removePrefix("{").removeSuffix("}").toString())?:""
-            }
+            val label = destination.label?:""
             activityBaseBinding.toolbarTitle.text = label
         }
     }

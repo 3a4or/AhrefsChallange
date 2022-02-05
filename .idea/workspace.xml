@@ -17,7 +17,6 @@
   <component name="ChangeListManager">
     <list default="true" id="159006a5-1119-44f9-a252-7fb401de9d84" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/net/ahrefs/ahrefschallange/utils/AutoCompleteSearchView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/net/ahrefs/ahrefschallange/utils/AutoCompleteSearchView.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -361,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642764425625</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="remove double quotes from search text">
+      <created>1644072568748</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1644072568748</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -392,6 +398,7 @@
     <MESSAGE value="add search screen and finish it's business logic" />
     <MESSAGE value="add dummy screen and display search box text when click on search icon" />
     <MESSAGE value="add unit test for search viewModel" />
-    <option name="LAST_COMMIT_MESSAGE" value="add unit test for search viewModel" />
+    <MESSAGE value="remove double quotes from search text" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove double quotes from search text" />
   </component>
 </project>
